@@ -22,7 +22,7 @@ str_param     = 'estparams0_sqrtlog_1959_2022';
 str_bootstrap = 'boot_stderrs_sqrtlog_1959_2022';
 
 % Input RCP scenario: 
-RCP = 2; % Valid: 1, 2, 3, 4, 5.
+RCP = 1; % Valid: 1, 2, 3, 4, 5.
 
 MC = 1e4;
 
