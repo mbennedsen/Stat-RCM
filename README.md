@@ -7,4 +7,4 @@ The folder ‘Files’ contain pre-estimated parameters and bootstrap samples (f
 
 The ‘main.m’ script may be run using different data (e.g. updated data over a longer sample period), but the estimation procedures, especially bootstrapping standard errors, can be time-consuming. If bootstrap standard errors are required, it is recommended to parallelize the bootstrap script “bootstrap_stderrs_sqrtlog.m” using a parfor-loop.
 
-The ‘projections.m’ script may be run to produce projections using the estimated Stat-RCM model and a future SSP scenario. Other scenarios may be considered by altering the code slightly.
+The ‘projections.m’ script may be run to produce projections using the estimated Stat-RCM model and a future SSP scenario. Other scenarios may be considered by altering the code accordingly.
